@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-if [ ! -f "km_kh_male.zip" ]; then
-  echo "downloading OpenSLR 42 dataset"
-  gdown 1MDmQbwpVUiltHj85QEu6MtpVzbvMM-wM
+if [ ! -f "News.zip" ]; then
+  echo "downloading the dataset"
+  gdown 1ZGAjrhfdfx6jSRkhxMK7VphEedmBStNj
 fi
 
-if [ ! -d "km_kh_male" ]; then
-  unzip km_kh_male.zip
+if [ ! -d "News" ]; then
+  unzip News.zip
 fi
