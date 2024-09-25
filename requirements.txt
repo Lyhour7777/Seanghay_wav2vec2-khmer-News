@@ -1,0 +1,13 @@
+torch
+torchaudio
+torchvision
+librosa
+tqdm
+numpy
+transformers
+evaluate
+accelerate
+click
+jiwer
+gdown
+tensorboard
