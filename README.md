@@ -1,6 +1,6 @@
 ## Wav2Vec2 with OpenSLR 42 (Khmer language)
 
-[[Google Colab]](https://colab.research.google.com/drive/1Kgmt8X1BaijUqKJcIaIFEpyC9cuOuKZp?usp=sharing)
+[[Google Colab]](https://colab.research.google.com/drive/1xp92MUlLslorCBLPe5rXG1kCNQs9ZwT5?usp=sharing)
 
 ![image](https://github.com/user-attachments/assets/f03a4802-cd77-43f8-8f66-6b7149d25cbb)
 
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ### Inference
 
-Download the weights via: [GitHub Release](https://github.com/seanghay/wav2vec2-khmer-openslr/releases/tag/v1.0.0)
+Download the weights via: [GitHub Release](https://github.com/Lyhour7777/Seanghay_wav2vec2-khmer-News/releases/tag/v1.0.0)
 
 ```python
 python inference.py samples/audio.wav
