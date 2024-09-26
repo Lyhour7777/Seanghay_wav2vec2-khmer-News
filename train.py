@@ -17,9 +17,9 @@ import click
 
 
 @click.command()
-@click.option("--audio_dir", help="Audio directory", default="News\Kep-Television")
+@click.option("--audio_dir", help="Audio directory", default="News/Kep-Television")
 @click.option(
-  "--metadata_file", help="Metadata file", default="News\M_Kep-Television.tsv"
+  "--metadata_file", help="Metadata file", default="News/M_Kep-Television.tsv"
 )
 @click.option("--model_id", help="Model ID", default="facebook/wav2vec2-base")
 @click.option("--output_dir", help="Output dir", default="result")
