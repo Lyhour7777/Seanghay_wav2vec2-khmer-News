@@ -14,7 +14,7 @@ def create_dataset(metadata_file, audio_dir):
 
     all_text = ""
 
-    for file_name, _, text in reader:
+    for file_name, text in reader:
       audio_path = os.path.join(audio_dir, file_name + ".flac")
       values["audio"].append(audio_path)
       values["text"].append(text)
